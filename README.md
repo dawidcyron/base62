@@ -15,7 +15,7 @@ import (
 
 func main() {
   //Number to encode
-	toEncode := 5201
+  toEncode := 5201
   encoded := base62.ToBase62(toEncode)
   log.Print(encoded)
   decoded := base62.ToBase10(encoded)
